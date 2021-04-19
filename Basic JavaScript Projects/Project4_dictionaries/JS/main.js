@@ -11,4 +11,5 @@ function myDictionary() {
     delete human.potential;
     //Changing paragraph display to the human name
     document.getElementById("Dictionary").innerHTML = human.name;
+    document.getElementById("Dictionary2").innerHTML = human.potential;
 }

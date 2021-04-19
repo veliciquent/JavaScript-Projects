@@ -1,15 +1,25 @@
 function testFunc(j, i) {
+    // Adding 2 numbers
     var x = testAdd(j, i);
+    // Subtracting 2 numbers
     var y = testSubtract(j, i);
+    //Multiplying numbers
     var n = testMultiply(j, i);
+    //Dividing Numbers
     var p = testDivision(j, i);
+    //Complex Maths
     var s = x + y + n + p;
+    //Finding Remainders
     var m = testModulus(j, i);
+    //Creating Negative
     var w = testNegative(s)
+    //Incriments and Decriments
     var incriment = testIncriment(x);
     var decriment = testDecriment(x);
+    //Finding a Random number
     var r = findRandom(i);
 
+    // Settting paragraph elements to new values
     document.getElementById("testAdd").innerHTML = x;
     document.getElementById("testSubtract").innerHTML = y;
     document.getElementById("testMultiply").innerHTML = n;

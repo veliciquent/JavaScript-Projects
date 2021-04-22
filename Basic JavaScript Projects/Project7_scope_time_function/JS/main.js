@@ -1,14 +1,20 @@
+// Creating Local Variable
 var globalX;
+
+// Creating Local Variable that also displays an error in the console debugger
 function breakTheGame() {
     var localX;
     document.write(local);
 }
+
+// Creating a function to test the "Date" function
 function testFunction() {
     if (new Date().getFullYear() > 2020) {
         document.getElementById("testDisplay").innerHTML = "You mean you survived 2020?!?"
     } else {        document.getElementById("testDisplay").innerHTML = "RIP"}
 }
 
+// Creating a function to utilize an numeric input
 function timeTravel() {
     year = document.getElementById("Year").value;
     if (isNaN(Year))
@@ -26,6 +32,7 @@ function timeTravel() {
     }
 }
 
+// Creating the given function to display the time of day
 function Time_function() {
     var Time = new Date().getHours();
     var Reply;

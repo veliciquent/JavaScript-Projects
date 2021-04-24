@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Java Slideshow</title>
+  <link rel="stylesheet" type="text/css" href="CSS/main.css">
+  <script src="JS/main.js"></script>
+
+</head>
+
+<body>
+    <!--Timer with an input for seconds that breaks everything when it gets to 0-->
+    <p>How many second would you like to set your alarm for?</p>
+    <input id="seconds" value=""/>
+    <button onclick="countdown()">Start Timer</button>
+    <p id="timer"></p>
+
+    <!-- Slideshow container -->
+    <div class="slideshow">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="slide fade">
+        <img src="image1.jpg" style="width:100%; height:500px">
+        </div>
+    
+        <div class="slide fade">
+        <img src="image2.jpg" style="width:100%; height:500px">
+        </div>
+    
+        <div class="slide fade" style="display:block">
+        <img src="image3.jpg" style="width:100%; height:500px">
+        </div>
+    </div>
+</body>
+</html>

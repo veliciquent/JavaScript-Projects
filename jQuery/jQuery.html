@@ -7,7 +7,9 @@
     </head>
 
     <script>
+    // Accessing the DOM via JQuery, making sure it is ready
     $(document).ready(function() {
+        // Adding additional HTML
         $("html").append(
             "<body>\
                 <div id='container'>\
@@ -20,7 +22,9 @@
                 </div>\
             </body>"
         );
+        // Accessing the CSS of the newly added HTML
         $("#2").css({"color":"red"});
+        // Testing out various jQuery functions
         $("#3").click(function() {
             $("h1").fadeOut(2000);
         });
